@@ -13,5 +13,10 @@ public class JenkinsController {
 
         return "welcome jenkins....user";
     }
-    //added comment for maven
+   @GetMapping("hello")
+    public String hello(){
+        return "hello...Api";
+    }
+
+
 }
